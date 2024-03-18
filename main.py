@@ -15,6 +15,7 @@ def main():
 
 def hello():
     click.echo("Hello!")
+    return main()
 
 
 def run_speedtest():
